@@ -59,8 +59,11 @@ border: 0;
 .inp{
     position: relative;
 }
-.s1{
+main{
     padding: 48px 80px;
+}
+.s1{
+    
     background: rgb(32, 44, 54);
 }
 .inp i{
@@ -73,7 +76,8 @@ border: 0;
     display: flex;
     flex-wrap: wrap;
     margin-top: 48px;
-    gap: 75px;
+    justify-content: space-between;
+    gap:30px ;
 }
 .card{
     width: 264px;
